@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'lato';
+    src:  url(/Users/tirathlakhlani/Desktop/Gunjan_Lakhlani_Portfolio/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'lato regular';
+    src:  url(/Users/tirathlakhlani/Desktop/Gunjan_Lakhlani_Portfolio/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src:  url(/Users/tirathlakhlani/Desktop/Gunjan_Lakhlani_Portfolio/Roboto/Roboto-Medium.ttf);
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    font-weight: bolder;
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 26px;
+    /*line-height: ;*/
+}
+
+.logo {
+    float: left;
+    font-size: 36px;
+    /*padding-top: 10px;*/
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 40px;
+
+    position: relative;
+}
+
+nav a {
+    color:  black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: #0924FC;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #0924FC;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    /*transition: all ease-in-out 250ms;*/
+}
+
+/*nav a:hover::before {
+    width: 100%;
+}*/
+
+button {
+    width: 185px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 18px;
+    color: white;
+    background-color: #0924FC;
+    border-style: none;
+}
+
+div button:hover {
+    background-color: black;
+    transition: all ease-in-out 300ms;
+}
+
+.home-hero {
+    padding-top: 125px;
+}
+
+.title-name {
+    font-family: 'lato';
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.phone, .email {
+    font-family: 'lato regular';
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.number {
+    font-family: 'lato';
+    font-size: 22px;
+}
+
+hr {
+    height: 1px;
+    background-color: #0924FC;
+    border-style: none;
+}
+
+
+.test2 {
+    line-height: 0;
+}
+
+ion-icon {
+  font-size: 26px;
+  color: #0924FC;
+}
+
+.title-hr {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #0924FC;
+}
+
+.professional-experience-list {
+    font-family: 'lato';
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.span-left {
+    float: left;
+    font-size: 28px;
+}
+
+.span-right {
+    float: right;
+    font-size: 28px;
+}
+
+.span-left1 {
+    float: left;
+    font-size: 28px;
+    font-family: 'lato regular';
+}
+
+.span-right1 {
+    float: right;
+    font-size: 28px;
+    font-family: 'lato';
+}
+
+.span-right-publications {
+    float: right;
+    font-size: 22px;
+}
+
+.professional-experience-sub {
+    font-family: 'lato';
+    font-size: 20px;
+    /*font-weight: 600;*/
+}
+
+.professional-experience {
+    font-family: 'lato regular';
+    font-size: 28px;
+    /*font-weight: 600;*/
+}
+
+.phone-bottom {
+    font-family: 'lato regular';
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.number-bottom {
+    font-family: 'lato';
+    font-size: 20px;
+}
+
+.footer-text {
+    font-family: 'lato';
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.align-left {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.align-right {
+    text-align: right;
+}
