@@ -1,1 +1,0 @@
-# tirathlakhlani.github.io
