@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'lato';
-    src:  url(/Users/tirathlakhlani/Desktop/Gunjan_Lakhlani_Portfolio/Lato/Lato-Light.ttf);
+    src:  url(Lato/Lato-Light.ttf);
 }
 
 @font-face {
     font-family: 'lato regular';
-    src:  url(/Users/tirathlakhlani/Desktop/Gunjan_Lakhlani_Portfolio/Lato/Lato-Regular.ttf);
+    src:  url(Lato/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: 'roboto';
-    src:  url(/Users/tirathlakhlani/Desktop/Gunjan_Lakhlani_Portfolio/Roboto/Roboto-Medium.ttf);
+    src:  url(Roboto/Roboto-Medium.ttf);
 }
 
 body {
